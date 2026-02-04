@@ -6,6 +6,7 @@ NAME			:=	a.out
 
 SRC				:=	ClapTrap.cpp	\
 					ScavTrap.cpp	\
+					FragTrap.cpp	\
 					main.cpp	\
 
 SRC_OBJS		:=	$(SRC:%.cpp=.build/%.o)
