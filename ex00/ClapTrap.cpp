@@ -15,7 +15,7 @@ ClapTrap::ClapTrap(std::string Name) {
 	this->_HitPoints = 10;
 	this->_EnergyPoints = 10;
 	this->_AttackDamage = 0;
-	std::cout << Name << " just born from a prestigious robot company" << std::endl;
+	std::cout << _BLUE << Name << _CLEAR << " just born from a prestigious robot company" << std::endl;
 }
 
 ClapTrap::ClapTrap(const ClapTrap &toCopy) {

@@ -6,6 +6,7 @@ FragTrap::FragTrap() : ClapTrap() {
 	this->_HitPoints = 100;
 	this->_EnergyPoints = 100;
 	this->_AttackDamage = 30;
+	this->_askedHighFive = false;
 	return ;
 }
 
@@ -15,6 +16,7 @@ FragTrap::FragTrap(std::string name) : ClapTrap(name) {
 	this->_HitPoints = 100;
 	this->_EnergyPoints = 100;
 	this->_AttackDamage = 30;
+	this->_askedHighFive = false;
 	return ;
 }
 
